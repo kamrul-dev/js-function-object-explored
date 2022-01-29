@@ -7,6 +7,8 @@ var computer = {
 // console.log(computer);
 // console.log(computer.processor);
 var computerPrice = computer.price;
+console.log(computer.color);
+console.log(computer['price']);
 
 // set a object value
 
@@ -24,9 +26,10 @@ computer[pricePropertyName] = 20000;
 
 var  storageProperty = "storage";
 
-computer[storageProperty] = '512gb';
+computer[storageProperty] = '512gb'
 computer['storage'] = '1tb';
 computer.storage = '2tb';
+
 
 
 console.log(computer);
